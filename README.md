@@ -1,2 +1,2 @@
-# market
-market
+# openmarket
+Openmarket Project
