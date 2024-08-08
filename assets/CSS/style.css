@@ -1,0 +1,143 @@
+
+
+/* 클래스 선택자를 타 사이트에서는 주로 사용하던데
+여긴 공백   자식   */
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* 바꾸면 부랄을 따버리겠다 시발롬 */
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: #e99797;
+}
+
+
+
+
+.product {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header styles */
+
+
+
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    align-content: center;
+    justify-items: space-between;
+}
+
+header .logo {
+    width: 124px;
+    padding: 19px 0;
+    margin-left : 320px;
+    background-color: #5900ff;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #5900ff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #bf21a5;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+    background-color: #81e299;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #f190cc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer styles */
+footer {
+    background-color: #9fffb7;
+    color: white;
+    padding: 1rem;
+
+    /* rem이거    아니 비율로 하라 해놓고 저걸로
+    루트 비율 문자크기 하니까 난리나던데 이거 질문... 원인 파악 vw  기준이랑 
+기타 레이아웃을 안 흐트러 트리면서  모바일이랑  데스크탑이랑  둘다  깔끔하게 보이게 하려면 
+
+    space between 이랑... 마진 패딩 잘써야    그리고 플랙스 많이 쓴다는데
+    활용법을 제대로 알아야함... 강의  인프랩거 봤는데  내가 존망으로 짜서 그럼 ㅋㅋ큐ㅠ
+    난 다시태어났지...
+    */
+    /* 지금은 괜찮아 보이는데 마진이랑  이런거 제대로 사용안해서 그런가 */
+
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    background-color: #909290;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 0.5rem;
+    background-color: #f9ff9f;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    background-color: #9fffb7cc;
+}
+
+

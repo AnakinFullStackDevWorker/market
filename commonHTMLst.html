@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>logIn</title>
+    
+    <link rel="stylesheet" href="./style/reset.css" />
+    <script src="./server.js" defer></script>
+
+
+    <style>
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            margin: auto;
+            padding: auto;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            justify-items: center;
+        }
+        
+        div,button,p {
+            padding: space-between;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            justify-items: center;
+            margin: auto;
+            box-sizing: border-box;
+        }
+        
+        
+        .logo-img{
+            display: flex;
+            width: 150px;
+            height: 50px;
+            padding: 100px 0px;
+        }
+    
+        .login-bg{
+            width: 350px;
+            height: 240px;
+            border: 1px solid #d4d4d4;
+            border-radius: 4px;
+        }
+        .login-area{
+            flex-direction: column;
+            display: flex;
+            margin: 19px 16px 18px 16px;
+            width: 318px;
+            gap: 16px;
+            
+        }
+        .title{
+            display: flex;
+            flex-direction: column;
+            width: 318px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            align-items: center;
+        }
+    
+        form{
+            width: 318px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 4px;
+            align-items: center;
+            gap: 8px;
+        }
+    
+        button{
+            width: 318px;
+            height: 40px;
+            background: #21BF48;
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+            align-items: center;
+            margin-top: 20px;
+        }
+    
+        button>p{
+            color: white;
+            line-height: 40px;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    
+        .user-area{
+            width: 318px;
+            display: flex;
+            justify-content: center;
+    
+    
+        }
+      
+    
+        .find{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 11px;
+            margin-top: 10px;
+            color: #767676;
+        }
+    </style>
+  </head>
+
+
+
+
+  <body>
+      <div style="width: 400px; height: 200px; margin: 120px auto auto auto;">
+        
+        <div class="logo-img">
+            <img src="./assets/Images/Logo-hodu.png" alt="logo" />
+        </div>
+          <dvi class="container"></dvi>
+          <div class="login-bg">
+              <div class="login-area">
+                  <p class="title">호두에 오신 것을 환영합니다.</p>
+
+                  <form>
+                      <input type="text" placeholder="아이디" />
+                      <input type="password" placeholder="비밀번호" />
+                    </form>
+                    
+                    <button>
+                        <p>로그인</p>
+                      </button>
+                    <div class="user-area">
+                        <div class="find">
+                            <img src="./img/icon-lock.svg" alt="" />
+                            <p>회원가입</p>
+                            <p>|</p>
+                            <p>비밀번호찾기</p>
+                        </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

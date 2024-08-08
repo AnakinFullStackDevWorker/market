@@ -1,0 +1,158 @@
+/* 에릭마이어도 사용은하는데.. 하나가 빠져있다고 함  주의해서 선별 넣기
+10000시간 꺼 넣자 */
+
+
+/* Eric Meyer Reset CSS v2.0 */
+
+/* 1. Box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Remove margin and padding from all elements */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Remove list styles */
+ol, ul {
+    list-style: none;
+}
+
+/* 4. Remove blockquote border */
+blockquote {
+    border: 0;
+    quotes: none;
+}
+
+/* 5. Set border-collapse and border-spacing for tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 6. Set font-size for HTML to ensure consistency */
+html {
+    font-size: 100%;
+}
+
+/* 7. Remove text-decoration for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 8. Remove default border and background for form elements */
+button, input, select, textarea {
+    border: none;
+    background: transparent;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* 9. Set default font-family and line-height */
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+/* 10. Set default font-size and line-height for headers */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+/* 11. Set default font-size for paragraphs and preformatted text */
+p {
+    font-size: 1em;
+}
+
+/* 12. Set default text-align for center-aligned text */
+center {
+    text-align: center;
+}
+
+/* 13. Remove default border for fieldsets */
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* 14. Reset legend to block-level */
+legend {
+    display: block;
+    padding: 0;
+}
+
+/* 15. Ensure default size and aspect ratio for images and media */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 16. Remove default vertical alignment for inline elements */
+sub, sup {
+    font-size: 100%;
+    line-height: 1;
+}
+
+/* 17. Remove default border for hr elements */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
