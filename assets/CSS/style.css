@@ -3,33 +3,118 @@
 /* 클래스 선택자를 타 사이트에서는 주로 사용하던데
 여긴 공백   자식   */
 
-body {
-    display: flex;
-    flex-direction: column;
-    /* 바꾸면 부랄을 따버리겠다 시발롬 */
-    border: 1px solid black;
+
+
+   
+*{
     margin: 0;
     padding: 0;
-    background-color: #e99797;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+div,button,p {
+    padding: space-between;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    box-sizing: border-box;
+
 }
 
 
-
-
-.product {
-    display: inline-block;
-    border: 1px solid #ddd;
-    padding: 16px;
-    margin: 16px;
-    width: 300px;
+.logo-img{
+    
+    display: flex;
+    width: 150px;
+    height: 50px;
+    padding: 100px 0px;
 }
 
-.product img {
-    width: 100%;
-    height: auto;
+.login-bg{
+    width: 350px;
+    height: 240px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+}
+.login-area{
+    flex-direction: column;
+    display: flex;
+    
+    margin: 19px 16px 18px 16px;
+    width: 318px;
+    gap: 16px;
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    align-items: center;
+}
+
+form{
+    width: 318px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+button{
+    width: 318px;
+    height: 40px;
+    background: #21BF48;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button>p{
+    color: white;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.user-area{
+    
+    width: 318px;
+    display: flex;
+    justify-content: center;
+
+
 }
 
 
+.find{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 10px;
+    color: #767676;
+}
 
 
 
